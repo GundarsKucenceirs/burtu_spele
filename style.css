@@ -5,6 +5,12 @@ body{
     line-height: 1.5;
     color:#121212;
 }
+h1{
+    margin 0;
+    font-size: 24px;
+    color:#fff;
+    text-align: center;
+}
 .lapa{
     width: 800px;
     margin: 20px auto;
@@ -13,3 +19,4 @@ body{
     padding: 20px;
     background-color: #6d93c7;
 }
+
