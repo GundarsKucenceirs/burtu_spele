@@ -12,3 +12,18 @@ function aiziet(){
    logs= window.open("spele.html");
     
 }
+
+function ttt(){
+let x="cc", y=0;
+
+const mas1=["S","K","O","L","A"];
+
+for(let i=0; i<5;i++){
+   y= Math.floor(Math.random() * 5);
+   document.getElementById("pirmaisB").innerHTML=mas1[y];
+
+}
+
+
+
+}
