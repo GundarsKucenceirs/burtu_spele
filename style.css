@@ -30,7 +30,7 @@ img{
 }
 .nav{
     text-align: center;
-   
+   margin-bottom: 50px;;
 }
 
 .nav-link{
@@ -64,7 +64,15 @@ img{
     
 }
 .vards{
-    margin: 50px  auto;
+    margin:  auto;
+    width: 200px;
+    background-color: #073679;
+    text-align: center;
+    color:#fff;
+    font-size: 25px;
+}
+.vards0{
+    margin:   auto;
     width: 200px;
     background-color: #073679;
     text-align: center;
@@ -72,3 +80,19 @@ img{
     font-size: 25px;
 }
 
+/*Ievades forma*/
+.form{
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+.form-input{
+    padding: 5px;
+    border: 1px solid #073679;
+    width: 190px;
+}

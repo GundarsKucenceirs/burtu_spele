@@ -20,23 +20,31 @@
             <a class="nav-link" href="#">Tops</a>
             <a class="nav-link" href="#">Par autoru</a>
         </div>
+        <div class="ievadesForma">
 
-        <div class="game">
-            
-            <div class="block">A</div>
-            <div class="block">B</div>
-            <div class="block">C</div>
-            <div class="block">D</div>
-            <div class="block">E</div>
-            
-
-    
         </div>
+            <form action="/" method="post" class="form" id="forma">
+                <div class="form-group">
+                    <input type="text" class="form-input" name="vards" placeholder="Jusu vards">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" name="uzvards" placeholder="Jusu uzvards">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" name="vecums" placeholder="Jusu vecums">
+                </div>
+            </form>
 
-        <div class="vards">
-            VĀRDS
+        <div class="vards0" id="sakt" >
+            <button type="button" class="vards" onclick="sakt_speli()">SAKT SPELI</button>
+            
+
+        </div>
+        <div class="vards0" id="aiziet" >
+            <button type="button" class="vards" onclick="aiziet()">AIZIET</button>
 
         </div>
     </div>
+    <script src="scenarijs.js"></script>
 </body>
 </html>
